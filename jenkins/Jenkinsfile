@@ -22,10 +22,5 @@ pipeline {
                 sh 'pwd'
             }
         }
-        stage('Complete') {
-            steps {
-                echo 'Job Complete!'
-            }
-        }
     }
 }
